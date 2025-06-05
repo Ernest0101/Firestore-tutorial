@@ -38,7 +38,7 @@ function App() {
       // update specific fields
       await updateDoc(docRef,{
         age:"9002",
-        name:"Mary Mary Quite Contrary"
+        name:"Mary Mary Contrary"
       });
 
       if (docSnap.exists()){
